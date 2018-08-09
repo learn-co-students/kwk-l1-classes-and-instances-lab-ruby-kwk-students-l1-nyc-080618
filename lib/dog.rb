@@ -1,22 +1,10 @@
 class Dog
-
-def initialize (fido, snoopy, lassie)
-
-@fido = fido
-@snoopy = snoopy
-@lassie = lassie
 end
 
-def fido
-  @fido
-end
+fido = Dog.new
+snoopy = Dog.new
+lassie = Dog.new
 
-def snoopy
-  @snoopy
-end
 
-def lassie
-  @lassie
-  end
-end
+
 
